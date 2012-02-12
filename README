@@ -1,0 +1,20 @@
+To play Twitter Hangman, tweet "play" sans quotes to @realhangman.
+
+Once a game is started, realhangman will reply with a category and word length. 
+
+Proceed by tweeting the characters you would like to guess to @realhangman.
+
+Example:
+@realhangman a
+@realhangman e
+@realhangman s
+
+The bot will reply with the remaining attempts (starts at 6) and the status of the current word.
+
+You can solve the game if you dare, by tweeting the full word to @realhangman.
+Example:
+@realhangman pennsylvania
+
+The bot will reply stating whether or not your guess was valid.
+
+Once a game has finished, you should remove your tweets to the bot so that you may tweet the same characters again if you choose to play another round.
