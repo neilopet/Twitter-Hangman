@@ -28,10 +28,10 @@ $database = array(
 $db = Database::getInstance($database);
 
 // Twitter
-define('CONSUMER_KEY',       '83TQVtjFyUF41WagAYFg');
-define('CONSUMER_SECRET',    'I3Wyqls4wBLSSLZTm8UpifAuJunGDjOuDYS2o8Hslj8');
-define('OAUTH_TOKEN',        '489574332-BpNjhxuT6cp8OCfHdclOjicbtYMs4Ej2AgZji3JM');
-define('OAUTH_TOKEN_SECRET', 'Wz55fTIQ6l9KMuOpu2kgFXGRVflIJrlGWDSHdQ');
+define('CONSUMER_KEY',       '83TQ...Fg');
+define('CONSUMER_SECRET',    'I3Wyql...o8Hslj8');
+define('OAUTH_TOKEN',        '4...JM');
+define('OAUTH_TOKEN_SECRET', 'Wz...dQ');
 $twitter = new Twitter(
     new TwitterOAuth(CONSUMER_KEY, CONSUMER_SECRET, OAUTH_TOKEN, OAUTH_TOKEN_SECRET)
 );
